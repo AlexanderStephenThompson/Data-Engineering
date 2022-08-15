@@ -6,6 +6,6 @@ Hope it helps!
 <!-- 
 Projects
 
-Tools: Calculator, APIs, 
-Games: Card game, RPG
+Tools: Calculator, APIs, extensions, bots, web scraping
+Games: Card game, tetris, RPG
 -->
