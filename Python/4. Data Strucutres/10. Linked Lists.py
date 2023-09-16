@@ -1,0 +1,1 @@
+# Crop rotation is a perfect representation of a circular linked list data structure
