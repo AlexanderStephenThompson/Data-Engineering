@@ -244,42 +244,44 @@ print Test_Function (5, c = 2, b = 1)     # returns 7, positional and named.
 print Test_Function (8, b = 0)            # returns 1, positional, named and default.
 """
 def Greeting_Message(Name="John"):
-    print(Name + ", it's nice to meet you")
+    print(Name + ", it's nice to meet you.")
 
 Greeting_Message()  # Uses John as a default if nothing is added to the parameters
-Greeting_Message("Alex")
+Greeting_Message("Rufus")
 
-def documentFunction(): # <-- Hover over the function name
-    """ Some summary info about the function. 
+def documentFunction(Whole_Number: int, Decimal: float, Text: str, Boolean: bool) -> int: # <-- Hover over the function name
+    """ 
+        # Headline
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol
 
-        Extended description of the function. This way you can give a more detailed summary of what's going on.
-
-        # Heading 1
-        ## Heading 2
-        ### Heading 3
-
+        ### Notes
         - Note 1
         - Note 2
         - Note 3
-        
-        Parameters
-        ----------
-        - `Argument 1`: data type - 
-            Description of the `argument`
 
-        - `Argument 2`: data type -
-            Description of the `argument`
-
-        - `Argument 3`: data type -
-            Description of the `argument`
-
-
-        Examples
-        --------
-        You can provide some `code` examples to help the reader such as:
+        ### Examples
         >>> Custom_Greeting("Rufus")
+        >>> Custom_Greeting("Kira")
+        >>> Custom_Greeting("Levent")
+
+        ## Parameters
+        - `Parameter 1`: data type - 
+            Description of the `parameter`.
+
+        - `Parameter 2`: data type -
+            Description of the `parameter`.
+
+        - `Parameter 3`: data type -
+            Description of the `parameter`.
+
+        ## Returns
+        - A `data type/structure` representing x.
+
+        ## Exceptions
+        - `KeyError`: Some explanation.
     """
-    pass # Just kidding, this function does nothing.
+    return "Nice work!"
+
 
 # Return statements
 """Return statements
@@ -328,7 +330,7 @@ When ordering arguments within a function or function call, arguments need to oc
 #    - Args -
 # *----------------*
 
-def fancy_omelette(*ingredients):
+def fancy_omelette(*ingredients: str):
     mix_and_cook()
     omelette = f"A fancy omelette with {len(ingredients)}"
     return omelette
