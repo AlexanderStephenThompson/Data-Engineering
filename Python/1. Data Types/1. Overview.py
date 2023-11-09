@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# https://docs.python.org/3/library/datatypes.html
 
 # Getting started with good habits...
 # The shebang line in any script determines the script's ability to be executed like a standalone executable without typing python beforehand in the terminal 

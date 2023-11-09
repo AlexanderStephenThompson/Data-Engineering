@@ -36,6 +36,9 @@ By default, the print method ends with a newline. This means there is no need to
 The sep is what goes between each word/object, the default is just a space.
 
 
+https://docs.python.org/3/library/text.html
+
+
 """
 
 # *----------------------------*

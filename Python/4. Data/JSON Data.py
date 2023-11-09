@@ -1,12 +1,3 @@
-"""
-•	JSON: syntax, structure, data types (numbers, strings, Boolean values, null), compound data (arrays and objects), sample JSON documents and their anatomies
-•	the json module: serialization and deserialization, serializing Python data/deserializing JSON (the dumps() and loads methods), serializng and deserializing Python objects
-•	XML: syntax, structure, sample xml documents and their anatomies, DTD, XML as a tree
-•	processing xml files
-
-"""
-
-
 # *-------------------------*
 # |                         |
 # |    ~~~~~ JSON ~~~~~     |
@@ -37,7 +28,6 @@ Rufus_Dictionary = {
 
 Rufus_JSON = json.dumps(Rufus_Dictionary)  
 print(Rufus_JSON)
-
 
 # *-------------------------*
 # |                         |
