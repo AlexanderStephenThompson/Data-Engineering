@@ -1,9 +1,3 @@
-# Programming
-This will provide an abstract explanation of programming, but also share different examples of my favorite languages
+# Data Scraper
 
-~ Version Control
-
-Languages
-  - Python
-  - JavaScript
-  - C#
+This is intended to help with quality data collection 
