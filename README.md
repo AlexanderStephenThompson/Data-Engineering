@@ -1,4 +1,3 @@
-# Data Scraper
+# Data Engineering
 
-This is intended to help with quality data collection.
-Hello~
+This is meant to show you where data comes from, how it's processed, and how it's stored.
